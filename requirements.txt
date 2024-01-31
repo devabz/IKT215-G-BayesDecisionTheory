@@ -1,0 +1,4 @@
+ucimlrepo
+numpy
+seaborn
+matplotlib
