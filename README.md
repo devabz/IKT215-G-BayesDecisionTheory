@@ -52,9 +52,9 @@ $$P(A) = \sum_{i \in \mathbb{I}} P(B_i \mspace{5mu}|\mspace{5mu} A) \cdot P(B_i)
 This theorem is particularly useful in scenarios where the probability of an event A is not directly known, but can be broken down into several mutually exclusive events $B_i$.
 
 # Construction A Naive Bayes Classifier
-Given a set of features $\mathbf{X} = \big( x_1, x_2, ..., x_i \big)$ and set of target classes $\mathbf{C} = \big( c_1, c_2, ..., c_k \big)$, we can begin constructing a Naive Bayes classifier.
+Given a set of features $\mathbf{X} = \big( x_1, x_2, ..., x_i \big)$ and set of target classes $\mathbf{Y} = \big( y_1, y_2, ..., y_k \big)$, we can begin constructing a Naive Bayes classifier.
 We begin by defining our decision rule by the following expression
-$$\hat{y} = \arg\max_{y} P(y | \textbf{x})$$
+$$\hat{y} = \arg\max_{y} P(y | \mathbf{X} )$$
 
 
 # Conditional Risk
