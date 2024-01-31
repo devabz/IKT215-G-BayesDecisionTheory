@@ -10,7 +10,7 @@ which essentially describes the relationship between single probabilities and co
 Independence depends on the fact that the outcomes or possibilities of whatever space, universe or phenomenon we're interested in, are mutually exclusive. 
 Essentially, in such a universe, any sample maps to a single outcome among many possible outcomes.
 <br><br>
-Formally, we can describe exclusiveness using set theory. A series of events $A_1, A_2, ... , A_n$ are mutually exclusive if their intersection is equal to an empty set.
+Formally, we can describe exclusiveness using set theory. A series of events $ \{ A_1, A_2, ... , A_n \} $ are mutually exclusive if their intersection is equal to an empty set.
 
 $$ A_i \cap A_j = A_iA_j = \emptyset \quad \text{for all} \; i \neq j $$
 
@@ -19,7 +19,8 @@ $$ A_i \cap A_j = A_iA_j = \emptyset \quad \text{for all} \; i \neq j $$
 *Fig. 1: Illustration of mutual exclusivity.*
 
 ## Back to Independence
-The concept of independence only holds when the various outcomes are mutually exclusive. In that case, independence allows us to express the probability of a conjunction $P(A \cap B)$ as the product of their single probabilities
+The concept of independence only holds when the various outcomes are mutually exclusive. In that case, independence allows us to express the probability of a conjunction $P(A_1 \cap A_2  \cap ...  \cap A_n)$ as the product of their single probabilities
+$P(A_1 \cap A_2  \cap ...  \cap A_n) = \big \cap_{i=0} A_i = $ 
 
 ## References 
 Image in figure 1: (https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
