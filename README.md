@@ -14,7 +14,12 @@ Formally, we can describe exclusiveness using set theory. A series of events $\{
 
 $$ A_i \cap A_j = A_iA_j = \emptyset \quad \text{for all} \; i \neq j $$
 
-![img.png](images/img.png)
+<p align="center">
+  <img src="images/img.png" alt="Mutually Exclusive Events">
+</p>
+<p align="center">
+  <em>Fig. 1: Illustration of mutual exclusivity.</em>
+</p>
 
 *Fig. 1: Illustration of mutual exclusivity.*
 
