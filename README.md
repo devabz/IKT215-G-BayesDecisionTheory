@@ -11,6 +11,7 @@ Independence depends on the fact that the outcomes or possibilities of whatever 
 Essentially, in such a universe, any sample maps to a single outcome among many possible outcomes.
 <br><br>
 Formally, we can describe exclusiveness as the intersection between the probability of two outcomes is equal zero.
+
 $$ P(X_i \cup ) = \phi $$
 
 ![img.png](images/img.png)
