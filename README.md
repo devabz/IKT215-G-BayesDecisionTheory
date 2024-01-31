@@ -64,14 +64,17 @@ Which can then be expanded to
 \end{align}
 ```
 ## Putting it together
+### Feature Independence
 Assuming each feature $x_i \in \mathbf{X}$ is independent of the remaining features, then the  probability of the conjunction $P(\mathbf{X})$ can be expressed as
 $$P(\mathbf{X}) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i)$$
 And as a result the conditional probability of the conjunction $P(\mathbf{X} | y)$ can be expressed as
 $$P(\mathbf{X} | y) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i | y)$$
 
-
+### Applying total probability
+Now we turn our attention to ther term $P(\mathbf{X}) which can be expressed as 
+$$P(\mathbf{X}) = \sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i)$$
 ## The Decision Rule
-We can now start substituting various components in order to arrive at the full expression
+We can now substitute various components in order to arrive at the full expression
 ```math
 \begin{align}
 \hat{y} &= \arg\max_{y}  \bigg(\sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i) \bigg)^{-1} \cdot P(y) \cdot \prod_{i \in I} P(x_i | y)
