@@ -81,10 +81,10 @@ We can now substitute various components in order to arrive at the full expressi
 \hat{y} &= \arg\max_{y}  \bigg(\sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i) \bigg)^{-1} \cdot P(y) \cdot \prod_{i \in I} P(x_i | y)
 \end{align}
 ```
+# Finishing Notes
+In practice we compute values for $P(y)$, $P(y | \mathbf{X}) and $P(x_i | y)$ directly from the dataset, and refer to them as priors. This then gives us everything 
+we need inorder to make use of our decision rule.
 
-# Conditional Risk
-
-## Cost
 
 # References 
 Figure 1: [Understanding Venn Diagrams](https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
