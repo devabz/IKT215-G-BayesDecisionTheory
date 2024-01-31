@@ -12,7 +12,7 @@ Essentially, in such a universe, any sample maps to a single outcome among many 
 <br><br>
 Formally, we can describe exclusiveness using set theory. A series of events $\{ A_1, A_2, ... , A_n \}$ are mutually exclusive if their intersection is equal to an empty set.
 
-$$ A_i \cap A_j = A_iA_j = \emptyset \quad \text{for all} \; i \neq j $$
+$$ A_i \cap A_j =  \emptyset \quad \text{for all} \; i \neq j $$
 
 <p align="center">
   <img src="images/img.png" alt="Mutually Exclusive Events">
