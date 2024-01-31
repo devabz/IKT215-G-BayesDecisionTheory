@@ -86,4 +86,3 @@ we need in order to make use of our decision rule.
 
 # References 
 Figure 1: [Understanding Venn Diagrams](https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
-ematics/chapter/5-3-understanding-venn-diagrams/)
