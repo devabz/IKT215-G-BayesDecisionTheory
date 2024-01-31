@@ -57,6 +57,12 @@ We begin by defining our decision rule by the following expression
 $$\hat{y} = \arg\max_{y} P(y | \mathbf{X} )$$
 Which can then be expanded to
 $$\hat{y} = \arg\max_{y}  \frac{P(\mathbf{X} | y ) \cdot P(y)}{P(\mathbf{X})}$$
+```math
+\begin{align}
+2 &= x\\
+3 &= x
+\end{align}
+```
 
 
 # Conditional Risk
