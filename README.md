@@ -42,7 +42,7 @@ Bayes Theorem is a way of finding a probability when we know certain other proba
 
 $$P(A \mspace{5mu}|\mspace{5mu} B) = \frac{P(B \mspace{5mu}|\mspace{5mu} A) \cdot P(A)}{P(B)}$$
 
-This theorem allows us to update our prior beliefs with new evidence, a fundamental approach in Bayesian statistics.
+This theorem allows us to update our prior beliefs with new evidence.
 
 # Total Probability
 The Law of Total Probability is a fundamental rule relating marginal probabilities to conditional probabilities. It states that the probability of an event can be found by considering all possible ways that the event can occur. For a set of mutually exclusive and exhaustive events $B_i$, the law is given by:
@@ -50,6 +50,9 @@ The Law of Total Probability is a fundamental rule relating marginal probabiliti
 $$P(A) = \sum_{i \in \mathbb{I}} P(B_i \mspace{5mu}|\mspace{5mu} A) \cdot P(B_i) $$
 
 This theorem is particularly useful in scenarios where the probability of an event A is not directly known, but can be broken down into several mutually exclusive events $B_i$.
+
+# Construction a Naive Bayes Classifier
+Given a set of features $\mathbf{X} = \{x_1, x_2, ..., x_i\}$ and set of target classes $\mathbf{C} = \{c_1, c_2, ..., c_k\}$
 
 # References 
 Figure 1: [Understanding Venn Diagrams](https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
