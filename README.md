@@ -35,7 +35,7 @@ The formula for conditional probability is given by:
 
 $$ P(A \mspace{5mu}|\mspace{5mu} B) = \frac{P(A \mspace{5mu}\cap\mspace{5mu} B)}{P(B)} $$
 
-where $ P(A \mspace{5mu}|\mspace{5mu} B) $ is the probability of event A occurring given that B has occurred, and $P(A \mspace{5mu}\cap\mspace{5mu} B)$ is the probability of both events A and B occurring.
+where $P(A \mspace{5mu}|\mspace{5mu} B)$ is the probability of event A occurring given that B has occurred, and $P(A \mspace{5mu}\cap\mspace{5mu} B)$ is the probability of both events A and B occurring.
 
 ## Back to Bayes Theorem
 Bayes Theorem is a way of finding a probability when we know certain other probabilities. The classic equation for Bayes Theorem is:
@@ -45,11 +45,11 @@ $$P(A \mspace{5mu}|\mspace{5mu} B) = \frac{P(B \mspace{5mu}|\mspace{5mu} A) \cdo
 This theorem allows us to update our prior beliefs with new evidence, a fundamental approach in Bayesian statistics.
 
 # Total Probability
-The Law of Total Probability is a fundamental rule relating marginal probabilities to conditional probabilities. It states that the probability of an event can be found by considering all possible ways that the event can occur. For a set of mutually exclusive and exhaustive events $ B_i$, the law is given by:
+The Law of Total Probability is a fundamental rule relating marginal probabilities to conditional probabilities. It states that the probability of an event can be found by considering all possible ways that the event can occur. For a set of mutually exclusive and exhaustive events $B_i$, the law is given by:
 
 $$P(A) = \sum_{i \in \mathbb{I}} P(B_i \mspace{5mu}|\mspace{5mu} A) \cdot P(B_i) $$
 
-This theorem is particularly useful in scenarios where the probability of an event A is not directly known, but can be broken down into several mutually exclusive events $ B_i$.
+This theorem is particularly useful in scenarios where the probability of an event A is not directly known, but can be broken down into several mutually exclusive events $B_i$.
 
 # References 
 Figure 1: [Understanding Venn Diagrams](https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
