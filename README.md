@@ -56,7 +56,7 @@ Given a set of features $\mathbf{X} = \big( x_1, x_2, ..., x_i \big)$ and set of
 We begin by defining our decision rule by the following expression
 $$\hat{y} = \arg\max_{y} P(y | \mathbf{X} )$$
 Which can then be expanded to
-$$\hat{y} = \arg\max_{y}  \frac{P(\mathbf{X} | y ) \cdot P(y)}{P(\mathbf{X}}$$
+$$\hat{y} = \arg\max_{y}  \frac{P(\mathbf{X} | y ) \cdot P(y)}{P(\mathbf{X})}$$
 
 
 # Conditional Risk
