@@ -70,7 +70,8 @@ We can now start substituting various components in order to arrive at the full 
 ```
 Assuming each feature $x_i \in \mathbf{X}$ is independent of the remaining features, then the  probability of the conjunction $P(\mathbf{X})$ can be expressed as
 $$P(\mathbf{X}) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i)$$
-
+And as a result the conditional probability of the conjunction $P(\mathbf{X} | y)$ can be expressed as
+$$P(\mathbf{X} | y) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i | y)$$
 # Conditional Risk
 
 ## Cost
