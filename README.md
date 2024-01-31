@@ -60,7 +60,7 @@ Which can then be expanded to
 \begin{align}
 \hat{y} &= \arg\max_{y} P(y | \mathbf{X} )\\
 &= \arg\max_{y}  \frac{P(\mathbf{X} | y ) \cdot P(y)}{P(\mathbf{X})}\\
-&= \arg\max_{y}  \frac{\prod_{i \in I} P(x_i | y)  \cdot P(y)}{P(\mathbf{X})}\\
+&= \arg\max_{y}  \prod_{i \in I} P(x_i | y)  \cdot \frac{P(y)}{P(\mathbf{X})}\\
 \end{align}
 ```
 
