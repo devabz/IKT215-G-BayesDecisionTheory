@@ -71,7 +71,7 @@ And as a result the conditional probability of the conjunction $P(\mathbf{X} | y
 $$P(\mathbf{X} | y) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i | y)$$
 
 ### Applying total probability
-Now we turn our attention to ther term $P(\mathbf{X})$ which can be expressed as 
+Now we turn our attention to ther term in the numerator $P(\mathbf{X})$ which can be expressed as 
 $$P(\mathbf{X}) = \sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i)$$
 
 ## The Decision Rule
