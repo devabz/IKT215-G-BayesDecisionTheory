@@ -11,12 +11,13 @@ Independence depends on the fact that the outcomes or possibilities of whatever 
 Essentially, in such a universe, any sample maps to a single outcome among many possible outcomes.
 <br><br>
 Formally, we can describe exclusiveness as the intersection between the probability of two outcomes is equal zero.
-\begin{equation}
+
+$$
 P(A \union B) = \phi
-\end{equation}
+$$
 
 ![img.png](images/img.png)
-*Fig. 1: Illustration of mutual exclusivity in a $\mathbb{R}^2$ space.*
+*Fig. 1: Illustration of mutual exclusivity in a $ \mathbb{R}^2 $ space.*
 
 ## References 
 Image in figure 1: (https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
