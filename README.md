@@ -70,6 +70,7 @@ And as a result the conditional probability of the conjunction $P(\mathbf{X} | y
 $$P(\mathbf{X} | y) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i | y)$$
 
 
+## The Decision Rule
 We can now start substituting various components in order to arrive at the full expression
 ```math
 \begin{align}
