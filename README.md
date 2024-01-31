@@ -18,5 +18,8 @@ $$ A_i \cap A_j = A_iA_j = \emptyset \quad \text{for all} \; i \neq j $$
 
 *Fig. 1: Illustration of mutual exclusivity.*
 
+## Back to Independence
+The concept of independence only holds when the various outcomes are mutually exclusive. In that case, independence allows us to express the probability of a conjunction $P(A \cap B)$ as the product of their single probabilities
+
 ## References 
 Image in figure 1: (https://louis.pressbooks.pub/finitemathematics/chapter/5-3-understanding-venn-diagrams/)
