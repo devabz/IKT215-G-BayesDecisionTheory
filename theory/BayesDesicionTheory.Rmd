@@ -1,6 +1,7 @@
 ---
 title:  Bayes Decision Theory
 output: pdf_document
+author: Abraham Korh
 ---
 \tableofcontents
 
