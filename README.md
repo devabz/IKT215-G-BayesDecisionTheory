@@ -12,7 +12,8 @@ Essentially, in such a universe, any sample maps to a single outcome among many 
 <br><br>
 Formally, we can describe exclusiveness as the intersection between the probability of two outcomes is equal zero.
 
-$$ P(X_i \cup X_{i \neq j}) = \phi $$
+
+$$ A_i \cap A_j = \emptyset \quad \text{for all} \; i \neq j $$
 
 ![img.png](images/img.png)
 *Fig. 1: Illustration of mutual exclusivity.*
