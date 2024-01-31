@@ -59,12 +59,16 @@ Which can then be expanded to
 ```math
 \begin{align}
 \hat{y} &= \arg\max_{y} P(y | \mathbf{X} )\\
-&= \arg\max_{y}  \frac{P(\mathbf{X} | y ) \cdot P(y)}{P(\mathbf{X})}\\
-&= \arg\max_{y}  \frac{P(y)}{P(\mathbf{X})} \cdot \bigg(  \prod_{i \in I} P(x_i | y) \bigg)\\
+&= \arg\max_{y}  \frac{P(\mathbf{X} | y ) \cdot P(y)}{P(\mathbf{X})}
+\end{align}
+```
+We can now start substituting various components in order to arrive at the full expression
+```math
+\begin{align}
+\hat{y} &= \arg\max_{y} P(y | \mathbf{X} )\\
 &= \arg\max_{y}  \bigg(\sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i) \bigg)^{-1} \cdot P(y) \cdot \prod_{i \in I} P(x_i | y)\\
 \end{align}
 ```
-
 
 # Conditional Risk
 
