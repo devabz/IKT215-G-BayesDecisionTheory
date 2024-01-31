@@ -10,7 +10,7 @@ which essentially describes the relationship between single probabilities and co
 Independence depends on the fact that the outcomes or possibilities of whatever space, universe or phenomenon we're interested in, are mutually exclusive. 
 Essentially, in such a universe, any sample maps to a single outcome among many possible outcomes.
 <br><br>
-Formally, we can describe exclusiveness using set theory. A series of events $\{ A_1, A_2, ... , A_n \}$ are mutually exclusive if their intersection is equal to an empty set.
+Formally, we can describe exclusiveness using set theory. A series of events $\big( A_1, A_2, ... , A_n \big)$ are mutually exclusive if their intersection is equal to an empty set.
 
 $$ A_i \cap A_j =  \emptyset \quad \text{for all} \; i \neq j $$
 
@@ -52,7 +52,7 @@ $$P(A) = \sum_{i \in \mathbb{I}} P(B_i \mspace{5mu}|\mspace{5mu} A) \cdot P(B_i)
 This theorem is particularly useful in scenarios where the probability of an event A is not directly known, but can be broken down into several mutually exclusive events $B_i$.
 
 # Construction A Naive Bayes Classifier
-Given a set of features $\mathbf{X} = \{ x_1, x_2, ..., x_i \}$ and set of target classes $\mathbf{C} = \big( c_1, c_2, ..., c_k \big)$, we can begin constructing a Naive Bayes classifier.
+Given a set of features $\mathbf{X} = \big( x_1, x_2, ..., x_i \big)$ and set of target classes $\mathbf{C} = \big( c_1, c_2, ..., c_k \big)$, we can begin constructing a Naive Bayes classifier.
 We begin by defining our decision rule by the following expression
 $$\brace$$
 
