@@ -68,7 +68,7 @@ We can now start substituting various components in order to arrive at the full 
 \hat{y} &= \arg\max_{y}  \bigg(\sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i) \bigg)^{-1} \cdot P(y) \cdot \prod_{i \in I} P(x_i | y)
 \end{align}
 ```
-Assuming each feature $x_i \in mathbf{X}$ is independent of the remaining features, then the  probability of the conjunction $P(\mathbf{X})$ can be expressed as
+Assuming each feature $x_i \in \mathbf{X}$ is independent of the remaining features, then the  probability of the conjunction $P(\mathbf{X})$ can be expressed as
 $$P(\mathbf{X}) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i)$$
 
 # Conditional Risk
