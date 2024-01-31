@@ -10,10 +10,10 @@ which essentially describes the relationship between single probabilities and co
 Independence depends on the fact that the outcomes or possibilities of whatever space, universe or phenomenon we're interested in, are mutually exclusive. 
 Essentially, in such a universe, any sample maps to a single outcome among many possible outcomes.
 <br><br>
-Formally, we can describe exclusiveness as the intersection between the probability of two outcomes is equal zero.
+Formally, we can describe exclusiveness using set theory. A series of events $ A_1, A_2, ..., A_n $ are mutually exclusive if, and only if
 
 
-$$ A_i \cap A_j = \emptyset \quad \text{for all} \; i \neq j $$
+$$ A_i \cap A_j = A_iA_j = \emptyset \quad \text{for all} \; i \neq j $$
 
 ![img.png](images/img.png)
 *Fig. 1: Illustration of mutual exclusivity.*
