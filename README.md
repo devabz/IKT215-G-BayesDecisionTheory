@@ -80,7 +80,7 @@ We can now substitute various components in order to arrive at the full expressi
 \end{align}
 ```
 # Finishing Notes
-In practice, we compute values for $P(y)$, $P(y | \mathbf{X}) and P(x_i | y)$ directly from the dataset, and refer to them as priors. This then gives us everything 
+In practice, we compute values for $P(y)$, $P(y | \mathbf{X}) \text{ and } P(x_i | y)$ directly from the dataset, and refer to them as priors. This then gives us everything 
 we need in order to make use of our decision rule.
 
 
