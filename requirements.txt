@@ -1,4 +1,6 @@
+jupyter
 ucimlrepo
 numpy
 seaborn
 matplotlib
+scikit-learn
