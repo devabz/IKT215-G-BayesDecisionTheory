@@ -45,7 +45,7 @@ This theorem allows us to update our prior beliefs with new evidence.
 ## Total Probability
 The Law of Total Probability is a fundamental rule relating marginal probabilities to conditional probabilities. It states that the probability of an event can be found by considering all possible ways that the event can occur. For a set of mutually exclusive and exhaustive events $B_i$, the law is given by:
 
-$$P(A) = \sum_{i \in \mathbb{I}} P(B_i \mspace{5mu}|\mspace{5mu} A) \cdot P(B_i) $$
+$$P(A) = \sum_{i \in \mathbb{I}} P(A | \mspace{5mu}|\mspace{5mu} B_i) \cdot P(B_i) $$
 
 This theorem is particularly useful in scenarios where the probability of an event A is not directly known, but can be broken down into several mutually exclusive events $B_i$.
 
@@ -70,7 +70,7 @@ $$P(\mathbf{X} | y) = P(x_1, x_2, ..., x_i) = \prod_{i \in I} P(x_i | y)$$
 
 ### Applying total probability
 Now we turn our attention to ther term in the numerator $P(\mathbf{X})$ which can be expressed as a sum of over the product of conditional and single probabilities
-$$P(\mathbf{X}) = \sum_{k \in \mathbb{K}} P(y_k \mspace{5mu}|\mspace{5mu} \mathbf{X}) \cdot P(y_i)$$
+$$P(\mathbf{X}) = \sum_{k \in \mathbb{K}} P(\mathbf{X} \mspace{5mu}|\mspace{5mu} y_k) \cdot P(y_i)$$
 
 ## The Decision Rule
 We can now substitute various components in order to arrive at the full expression
