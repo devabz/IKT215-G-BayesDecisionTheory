@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.metrics import confusion_matrix
-from sklearn.metrics import recall_score, precision_score, f1_score
+from sklearn.metrics import recall_score, precision_score, f1_score, accuracy_score
 from code.src.bdt import compute_probability
 
 
@@ -47,8 +47,8 @@ def visualize_decision_boundary(x, y, predictor, ax=None, cmap=plt.cm.OrRd_r, ):
         ax.legend()
 
 
-def visualize_prob_distribution(x, y, label_column='class'):
-    class_indices = list(y.groupby(label_column).groups.values())
+def visualize_prob_distribution(x, y):
+    class_indices = list(y.groupby(list(y)).groups.values())
     number_line = np.linspace(-2, 9, 1000)
     stacked_num_line = np.vstack(
         [number_line, number_line, number_line, number_line]).transpose()  # a number line for each class
@@ -129,8 +129,15 @@ def compute_metric_table(y_true, y_pred):
                   y_pred=encoder.fit_transform(np.array(y_pred).reshape(-1, 1)), average=None)
     f1 = pd.DataFrame(f1, index=np.unique(y_true))
 
+    groups = list(y_true.groupby(list(y_true)).groups.values())
+    true = OrdinalEncoder().fit_transform(np.array(y_true).reshape(-1, 1))
+    p = OrdinalEncoder().fit_transform(np.array(y_pred).reshape(-1, 1))
+    accuracy = pd.DataFrame([accuracy_score(true[_], p[_]) for _ in groups], index=np.unique(y_true))
+
     df = pd.merge(precision, recall, right_index=True, left_index=True)
     df = df.merge(f1, right_index=True, left_index=True)
     df.columns = ['precision', 'recall', 'f1']
+    df = df.merge(accuracy, right_index=True, left_index=True)
+    df.columns = ['precision', 'recall', 'f1', 'accuracy']
 
     return df
