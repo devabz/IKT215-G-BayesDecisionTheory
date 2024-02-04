@@ -77,7 +77,7 @@ def visualize_prob_distribution(x, y, label_column='class'):
     plt.show()
 
 
-def visualize_confusion_matrix(pred, y, cmap=plt.cm.magma, ax=None, title=None):
+def visualize_confusion_matrix(pred, y, cmap=plt.cm.PuBu, ax=None, title=None):
     predictions = OrdinalEncoder().fit_transform(np.array((pred)).reshape(-1, 1))
     actual = OrdinalEncoder().fit_transform(np.array(y).reshape(-1, 1))
     cmat = confusion_matrix(actual, predictions)
